@@ -12,11 +12,9 @@ for (int i = 0; i < array.Length; i++)
 Console.WriteLine($"[{string.Join(", ", array)}]");
 int countEven = 0, countOdd = 0;
 foreach (int element in array)
-{
     if(element % 2 == 0)
     countEven ++;
     else
     countOdd ++;
-}
 Console.WriteLine($"Четных:{countEven}");
 Console.WriteLine($"Нечетных:{countOdd}");
